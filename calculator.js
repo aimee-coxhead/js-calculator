@@ -12,8 +12,7 @@ function clearAll(){
 function enter(num){
     if(temp === '0' && num === 0){
         return
-    }
-    else if(temp.includes('.') && num === '.'){
+    }else if(temp.includes('.') && num === '.'){
         return
     }
     temp += num;
