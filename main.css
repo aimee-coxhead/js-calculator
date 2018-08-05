@@ -1,0 +1,66 @@
+.row {
+    display: block;
+    
+}
+
+.number {
+    border-radius: 50%;
+    background-color: grey;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+}
+
+.calculation {
+    border-radius: 50%;
+    background-color: rgb(250, 171, 24);
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+}
+
+.calculationTwo {
+    border-radius: 50%;
+    background-color: lightgray;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+}
+
+.long {
+    border-radius: 30px;
+    background-color: grey;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    display: inline-block;
+    width: 115px;
+    height: 50px;
+    margin: 5px;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+}
+
+input{
+    width: 20%;
+    height: 40px;
+    font-size: 20px;
+}

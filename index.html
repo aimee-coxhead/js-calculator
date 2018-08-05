@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator</title>
+    
+    <link rel="stylesheet" type="text/css" href="main.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <script src="calculator.js"></script>
+    
+  </head>
+  <body>
+    <div class="row">
+      <input id="display">
+    </div>
+    <div class="row">
+      <button class="calculationTwo" id="clear" onclick="clearAll()">AC</button>
+      <button class="calculationTwo" id="">C</button>
+      <button class="calculationTwo" id="">%</button>
+      <button class="calculation" id="divide" onclick="symbol('/')">/</button>
+    </div>
+    <div class="row">
+      <button class="number" id="seven" onclick="enter(7)">7</button>
+      <button class="number" id="eight" onclick="enter(8)">8</button>
+      <button class="number" id="nine" onclick="enter(9)">9</button>
+      <button class="calculation" id="multiply" onclick="symbol('x')">x</button>
+    </div>
+    <div class="row">
+      <button class="number" id="four" onclick="enter(4)">4</button>
+      <button class="number" id="five" onclick="enter(5)">5</button>
+      <button class="number" id="six" onclick="enter(6)">6</button>
+      <button class="calculation" id="subtract" onclick="symbol('-')">-</button>
+    </div>
+    <div class="row">
+      <button class="number" id="one" onclick="enter(1)">1</button>
+      <button class="number" id="two" onclick="enter(2)">2</button>
+      <button class="number" id="three" onclick="enter(3)">3</button>
+      <button class="calculation" id="add" onclick="symbol('+')">+</button>
+    </div>
+    <div class="row">
+      <button class="long" id="zero" onclick="enter(0)">0</button>
+      <button class="number"id="decimal" onclick="enter('.')">.</button>
+      <button class="calculation" id="equals" onclick="equals('=')">=</button>
+    </div>
+  </body>
+</html>
